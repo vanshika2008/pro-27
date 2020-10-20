@@ -52,6 +52,7 @@ function draw(){
 
 function keyPressed(){
     if(keyCode === 38 ){
-       Matter.Body.applyForce(bob5.body,bob5.body.position,{x:11,y:-11});
+       Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-11,y:11});
+       
     }
   }
